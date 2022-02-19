@@ -1,4 +1,4 @@
-                     mpackage com.example.layouts
+package com.example.layouts
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
