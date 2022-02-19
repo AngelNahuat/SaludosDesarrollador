@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnComprobar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -13,34 +14,23 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="65dp"
-        android:text="@string/prueba"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/escribe_tu_nombre"
         android:textColor="@android:color/holo_blue_bright" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/etNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="114dp"
-        android:layout_marginEnd="158dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="180dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:text="Name" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="112dp"
-        android:layout_marginEnd="37dp"
-        android:background="@android:drawable/btn_star_big_on"
-        android:text="Button"
-        android:textColor="@android:color/holo_blue_bright"/>
 
     <ImageView
         android:id="@+id/imageView3"
@@ -51,6 +41,27 @@
         android:layout_marginStart="47dp"
         android:layout_marginTop="257dp"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <CheckBox
+        android:id="@+id/cbSoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="13dp"
+        android:text="Soy desarrollador" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="219dp"
+        android:text="COmprobar" />
 
 
 </RelativeLayout>
